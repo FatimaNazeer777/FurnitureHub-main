@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Sofa from "../../../public/assets/rocket.png";
 import Navbar from "../navbar";
+import Link from "next/link";  // Import Link for navigation
 
 const HomeBanner = () => {
   return (
@@ -13,13 +14,22 @@ const HomeBanner = () => {
           <h1 className="text-black text-[2.5rem] sm:text-[3.5rem] md:text-[4rem] font-medium w-full">
             Rocket single seater
           </h1>
-          <p className="text-black text-lg sm:text-xl md:text-2xl font-medium mt-4">Shop Now</p>
+          {/* "Shop Now" text with Link for navigation */}
+          <Link href="/shop" className="text-black text-lg sm:text-xl md:text-2xl font-medium mt-4 hover:underline">
+            Shop Now
+          </Link>
           <div className="bg-black w-32 h-0.5 mt-2 mx-auto lg:mx-0"></div>
         </div>
 
         {/* Right Section (Image) */}
         <div className="mt-8 lg:mt-0 w-full lg:w-auto flex justify-center">
-          <Image src={Sofa} width={853} height={300} alt="homeBannerSofa" className="max-w-full" />
+          <Image
+            src={Sofa}
+            width={853}
+            height={300}
+            alt="homeBannerSofa"
+            className="max-w-full"
+          />
         </div>
       </div>
     </div>
