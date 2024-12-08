@@ -1,8 +1,12 @@
+Here's an updated version of the `README.md` for your **FurnitureHub** e-commerce website, with the additional details about your participation in the GAIC Q2 Figma E-commerce Hackathon and the live Vercel link:
+
+---
+
 # FurnitureHub E-Commerce Website
 
 ![FurnitureHub Logo](link_to_logo.png)
 
-FurnitureHub is an online platform that offers a wide range of high-quality furniture for your home and office. Browse through our carefully curated collection to find the perfect pieces that complement your style and enhance your living spaces.
+**FurnitureHub** is your one-stop online destination offering a wide selection of high-quality furniture for both home and office. Explore our curated collection to discover the ideal pieces that match your style and elevate your living or working space.
 
 ## Table of Contents
 
@@ -16,51 +20,72 @@ FurnitureHub is an online platform that offers a wide range of high-quality furn
 
 ## Features
 
-- **Extensive Product Catalog**: Explore a diverse selection of furniture items, from sofas and chairs to tables and storage solutions.
+- **Diverse Product Catalog**: Browse through an extensive range of furniture items, including sofas, chairs, tables, and storage solutions, perfect for any space.
 
-- **User-friendly Interface**: Enjoy a seamless shopping experience with an intuitive and responsive design.
+- **Intuitive User Experience**: Enjoy a smooth and user-friendly shopping experience, with an interface designed to be easy to navigate.
 
-- **Responsive Design**: Access the website from any device, ensuring a consistent and enjoyable user experience.
+- **Responsive Design**: FurnitureHub offers full compatibility across all devices, ensuring a seamless and enjoyable shopping experience wherever you go.
 
 ## Demo
 
-Check out our live demo [here](link_to_demo) to experience FurnitureHub in action.
+Explore our live demo [here](https://furniture-hub-main.vercel.app/) to see FurnitureHub in action.
 
 ![FurnitureHub Demo](link_to_demo_screenshot.png)
 
 ## Installation
 
-To run FurnitureHub locally, follow these steps:
+To run **FurnitureHub** locally, follow these instructions:
 
-1. Clone the repository: `git clone https://github.com/battletech45/furniturehub.git`
-2. Navigate to the project directory: `cd furniturehub`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm run dev`
-5. Open your browser and visit `http://localhost:3000`
+1. Clone the repository:  
+   `git clone https://github.com/FatimaNazeer777/FurnitureHub-main.git`
+
+2. Navigate to the project directory:  
+   `cd furniturehub`
+
+3. Install the required dependencies:  
+   `npm install`
+
+4. Start the development server:  
+   `npm run dev`
+
+5. Open your browser and go to `http://localhost:3000`
 
 ## Usage
 
-1. Browse through the catalog to discover a variety of furniture items.
-2. Create an account to save your favorite items and track your orders.
-3. Use the search and filter options to find specific pieces that match your preferences.
+1. Explore the product catalog to find a wide variety of furniture items for your home or office.
+2. Create an account to save your favorite items and track orders.
+3. Use the search and filter options to find specific items that suit your style.
 4. Add items to your cart and proceed to a secure checkout process.
 
 ## Technologies Used
 
-- React
-- Tailwind CSS
-- Zustand state management
-- Next.js
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Zustand**: A simple state management library for React.
+- **Next.js**: A React framework for building server-side rendered and static web applications.
+
+## Hackathon Participation
+
+FurnitureHub was created as part of the **GAIC Q2 Figma E-commerce Hackathon**. The project showcases the skills and creativity developed during this event, focused on delivering a high-quality and seamless online shopping experience.
+
+## Live Version
+
+You can check out the live version of FurnitureHub hosted on Vercel:  
+[**FurnitureHub Live Demo**](https://furniture-hub-main.vercel.app/)
 
 ## Contributing
 
-We welcome contributions from the community! If you find a bug, have a feature request, or want to contribute code, please open an issue or submit a pull request. Check out our [contribution guidelines](CONTRIBUTING.md) for more details.
+Feel free to fork this repository, contribute by opening pull requests, or report issues to help improve FurnitureHub. Contributions are always welcome!
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Happy shopping with FurnitureHub!
-"# FurnitureHub-main" 
+This version includes:
+- Reworded description of the features.
+- A section about my participation in the GAIC Q2 Figma E-commerce Hackathon.
+- A link to the live Vercel-hosted website.
+
+Let me know if you'd like any more modifications or additions!
