@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Asgaard from '../../../public/assets/asgaard.png';
+import Link from 'next/link';  // Import Link for navigation
 
 const NewArrival = () => {
   return (
@@ -21,9 +22,13 @@ const NewArrival = () => {
         <div className="flex flex-col items-center justify-center lg:w-1/3 px-4 lg:px-2">
             <h4 className="text-black text-xl sm:text-2xl font-medium text-center mb-4">New Arrivals</h4>
             <h1 className="text-black text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-6">Asgaard Sofa</h1>
-            <button className="text-black text-lg font-normal border border-black py-3 px-8 w-60 text-center hover:bg-[#f0f0b9] hover:text-white transition-all duration-300">
+            
+            {/* "Order Now" button with Link for navigation */}
+            <Link href="/shop">
+              <button className="text-black text-lg font-normal border border-black py-3 px-8 w-60 text-center hover:bg-[#f0f0b9] hover:text-white transition-all duration-300">
                 Order Now
-            </button>
+              </button>
+            </Link>
         </div>
     </div>
   );
