@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Sofa from "../../../public/assets/rocket.png";
 import Navbar from "../navbar";
-import Link from "next/link";  // Import Link for navigation
+import Link from "next/link";  
 
 const HomeBanner = () => {
   return (
