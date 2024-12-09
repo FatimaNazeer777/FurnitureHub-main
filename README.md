@@ -4,8 +4,6 @@ Here's an updated version of the `README.md` for your **FurnitureHub** e-commerc
 
 # FurnitureHub E-Commerce Website
 
-![FurnitureHub Logo](link_to_logo.png)
-
 **FurnitureHub** is your one-stop online destination offering a wide selection of high-quality furniture for both home and office. Explore our curated collection to discover the ideal pieces that match your style and elevate your living or working space.
 
 ## Table of Contents
@@ -76,12 +74,6 @@ You can check out the live version of FurnitureHub hosted on Vercel:
 ## Contributing
 
 Feel free to fork this repository, contribute by opening pull requests, or report issues to help improve FurnitureHub. Contributions are always welcome!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 This version includes:
 - Reworded description of the features.
