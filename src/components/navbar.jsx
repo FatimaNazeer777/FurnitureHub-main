@@ -13,7 +13,7 @@ const Navbar = ({ bgColor }) => {
   return (
     <nav className={`flex items-center justify-between absolute bg-${bgColor} text-white w-full px-12 p-8 z-30`}>
       {/* Logo and Navigation Links for Larger Screens */}
-      <div className="hidden md:flex gap-14 w-full justify-center">
+      <div className="hidden lg:flex gap-14 w-full justify-center">
         <a className="text-[black] text-base not-italic font-medium leading-[normal] no-underline" href="/">
           Home
         </a>
@@ -29,7 +29,7 @@ const Navbar = ({ bgColor }) => {
       </div>
 
       {/* Hamburger Icon for Small Screens */}
-      <div className="md:hidden flex items-center">
+      <div className="lg:hidden flex items-center">
         <IoMdMenu
           className="text-2xl text-black cursor-pointer"
           onClick={toggleMenu}
@@ -37,7 +37,7 @@ const Navbar = ({ bgColor }) => {
       </div>
 
       {/* Navigation and Icons for Small Screens */}
-      <div className="md:hidden absolute top-0 left-0 w-full bg-white z-20 flex flex-col items-center mt-16" style={{ display: menuOpen ? "flex" : "none" }}>
+      <div className="lg:hidden absolute top-0 left-0 w-full bg-white z-20 flex flex-col items-center mt-16" style={{ display: menuOpen ? "flex" : "none" }}>
         <a className="text-black text-base font-medium py-2" href="/">
           Home
         </a>
