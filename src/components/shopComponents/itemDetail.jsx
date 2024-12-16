@@ -53,31 +53,19 @@ const ItemDetail = ({ itemID }) => {
       {/* Main Section */}
       <section className="flex flex-col lg:flex-row gap-8 px-4 lg:px-32 py-8">
         {/* Small Images */}
-        <div className="flex lg:flex-col gap-4">
-          <img
-            src={product.imageUrl}
-            alt="smallPhotos"
-            className="w-20 h-20 lg:w-24 lg:h-24 rounded-xl"
-          />
-          <img
-            src={product.imageUrl}
-            alt="smallPhotos"
-            className="w-20 h-20 lg:w-24 lg:h-24 rounded-xl"
-          />
-          <img
-            src={product.imageUrl}
-            alt="smallPhotos"
-            className="w-20 h-20 lg:w-24 lg:h-24 rounded-xl"
-          />
-          <img
-            src={product.imageUrl}
-            alt="smallPhotos"
-            className="w-20 h-20 lg:w-24 lg:h-24 rounded-xl"
-          />
+        <div className="flex lg:flex-col gap-4 justify-center">
+          {[...Array(4)].map((_, index) => (
+            <img
+              key={index}
+              src={product.imageUrl}
+              alt={`smallPhotos-${index}`}
+              className="w-20 h-20 lg:w-24 lg:h-24 rounded-xl object-cover"
+            />
+          ))}
         </div>
 
         {/* Main Image */}
-        <div className="flex-1">
+        <div className="flex-1 flex justify-center">
           <img
             className="w-full h-72 lg:h-[600px] rounded-2xl object-cover"
             src={product.imageUrl}
