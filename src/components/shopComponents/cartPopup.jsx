@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import Close from "../../../public/assets/closeCart.svg";
 import Link from "next/link";
@@ -17,7 +17,7 @@ const CartPopup = ({ closeFunction }) => {
   return (
     <>
       <div className="absolute z-40 inset-0 bg-black/20"></div>
-      <div className="flex flex-col items-start justify-between p-4 sm:p-6 lg:p-8 w-full sm:w-[25rem] lg:w-[26rem] h-full sm:h-[50rem] lg:h-[46rem] absolute top-0 right-0 z-50 bg-white">
+      <div className="flex flex-col items-start justify-between p-4 sm:p-6 lg:p-8 w-full sm:w-[20rem] lg:w-[26rem] h-full sm:h-[40rem] lg:h-[46rem] absolute top-0 right-0 z-50 bg-white">
         <div className="w-full">
           <div className="flex items-center justify-between w-full">
             <h3 className="text-black text-xl sm:text-2xl lg:text-3xl font-semibold">
@@ -34,7 +34,7 @@ const CartPopup = ({ closeFunction }) => {
           <div className="bg-[#D9D9D9] w-full h-0.5 items-center justify-center flex my-6 sm:my-8"></div>
 
           {/* CART ITEMS */}
-          <div className="overflow-y-auto max-h-[30rem] sm:max-h-[35rem] lg:max-h-[40rem]">
+          <div className="overflow-y-auto max-h-[20rem] sm:max-h-[25rem] lg:max-h-[35rem]">
             {cart.map((item) => (
               <CartItem key={item.id} product={item} />
             ))}
