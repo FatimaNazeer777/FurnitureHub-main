@@ -53,13 +53,13 @@ const ItemDetail = ({ itemID }) => {
       {/* Main Section */}
       <section className="flex flex-col lg:flex-row gap-8 px-4 lg:px-32 py-8">
         {/* Small Images */}
-        <div className="flex lg:flex-col gap-4 justify-center">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 justify-center">
           {[...Array(4)].map((_, index) => (
             <img
               key={index}
               src={product.imageUrl}
               alt={`smallPhotos-${index}`}
-              className="w-20 h-20 lg:w-24 lg:h-24 rounded-xl object-cover"
+              className="w-full h-20 lg:w-24 lg:h-24 rounded-xl object-cover"
             />
           ))}
         </div>
